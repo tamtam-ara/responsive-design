@@ -115,6 +115,7 @@ h2{
 }
 #allcards{
     display: flex;
+    justify-content: space-evenly;
 }
 #footer{
     display: flex;
@@ -134,6 +135,18 @@ h2{
     padding: 15px;
     border-radius: 5px;
      border-style: none; 
+}
+#cardtext{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}  
+#learnmore{
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 44, 44);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none;  
 }
 #footerbuttons{
     display: flex;
