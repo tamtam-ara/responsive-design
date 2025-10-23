@@ -19,7 +19,6 @@ p {
 #Home {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 51, 51);
-    border-color: rgb(51, 51, 51);
     padding: 15px;
     border-radius: 5px;
     border-style: groove;
@@ -60,12 +59,130 @@ p {
      border-style: none;
 }
 nav{
-    justify-content:center;
+    justify-content:space-between;
     display: flex;
     width: 100%;
-    align-items: stretch;
 }
 #buttons{
     display: flex;
     justify-content: center;
+    font-size: 25px;
+}
+h1{
+    color: rgb(228, 224, 218);
+    display: flex;
+    justify-content: center;
+}
+#text{
+    border-style:solid;
+    border-color: rgb(46, 46, 46);
+    border-width: 3px;
+    background-color: ;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    background-color:rgb(54, 54, 54);
+    padding: 5px;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+#ourworks{
+     color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(51, 51, 51);
+    padding: 10px;
+    border-radius: 5px;
+     border-style: solid;
+}
+
+#herobutton{
+  display: flex;
+  justify-content: center;
+  
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+#Transform{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+#allcards{
+    display: flex;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#footercontainer{
+ justify-content:space-between;
+    display: flex;
+    width: 100%;
+}
+#logo2 image{
+    size: 50px;
+}
+#Home2,#service2,#work2,#process2,#about2,#careers2,#contact2{
+ color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none; 
+}
+#footerbuttons{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#stay img{
+display: flex;
+height: 50px;
+justify-items: end;
+}
+#email{
+ color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none; 
+}
+#nummer{
+ color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none; 
+}
+#location{
+ color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none; 
+}
+#allrights{
+  color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 5px;
+     border-style: none;    
+}
+#number{
+    display: flex;
+    justify-content:space-between ;
+}
+#rights{
+    display: flex;
+    justify-content: 
+}
+@media (max-width:768px) {
+    body{
+        background-color: rgb(34, 34, 34);
+    }
 }
