@@ -146,7 +146,8 @@ h2{
     background-color: rgb(44, 44, 44);
     padding: 15px;
     border-radius: 5px;
-     border-style: none;  
+     border-style: none; 
+    
 }
 #footerbuttons{
     display: flex;
