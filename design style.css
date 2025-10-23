@@ -97,7 +97,10 @@ span{
     border-radius: 5px;
      border-style: solid;
 }
-
+.Container.png.png{
+    display: flex;
+    justify-content: center;
+}
 #herobutton{
   display: flex;
   justify-content: center;
