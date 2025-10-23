@@ -194,11 +194,11 @@ justify-items: end;
 }
 #number{
     display: flex;
-    justify-content:space-between ;
+    justify-content:flex-start ;
 }
 #rights{
     display: flex;
-    justify-content: 
+    justify-content:flex-end
 }
 @media (max-width:768px) {
     body{
