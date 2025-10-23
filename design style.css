@@ -188,7 +188,9 @@ justify-items: end;
     background-color: rgb(34, 34, 34);
     padding: 15px;
     border-radius: 5px;
-     border-style: none;    
+     border-style: none; 
+     display: flex;
+     justify-content: flex-end;   
 }
 #number{
     display: flex;
