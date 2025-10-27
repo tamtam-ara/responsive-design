@@ -142,7 +142,9 @@ h2{
 #cardtext{
     color: antiquewhite;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    padding: 5px;
 }  
 #learnmore{
     color: rgb(255, 255, 255);
